@@ -1,155 +1,114 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Urban Farming</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
 
-      body {
-        font-family: system-ui, sans-serif;
-        color: rgb(70, 70, 70);
-      }
+<head>
+  <meta charset="UTF-8" />
+  <title>Urban Farming</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
 
-      header:first-child {
-        display: flex;
-        justify-content: space-between;
-      }
+<body id="home">
+  <header>
+    <hgroup>
+      <h1>The Future of Urban Farming</h1>
+      <p> Growing Food in the Concrete Jungle</p>
+    </hgroup>
 
-      header:first-child section {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-      }
+    <nav>
+      <ul>
+        <li> <a href="#home">Home</a></li>
+        <li> <a href="#article">Articles</a> </li>
+        <li> <a href="#project">Projects</a> </li>
+        <li> <a href="#contact">Contact</a> </li>
+      </ul>
+    </nav>
+  </header>
 
-      header h1 {
-        font-size: 28px;
-      }
+  <main>
 
-      header p {
-        font-size: 15px;
-        font-weight: 500;
-      }
-
-      nav {
-        width: 50%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: rgb(181, 181, 181);
-      }
-
-      nav a {
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
-        font-size: 18px;
-      }
-    </style>
-  </head>
-
-  <body id="home">
-    <header>
-      <section>
-        <h1>The Future of Urban Farming</h1>
-        <p>Growing Food in the Concrete Jungle</p>
-      </section>
-
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#article">Articles</a>
-        <a href="#project">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
+    <aside>
+      <h3>Related Article</h3>
+      <p><a href="#">Community Gardens in Schools</a></p>
+    </aside>
     <article id="article">
-      <main>
-        <header>
-          <blockquote>
-            <cite>Rooftop Gardens Are Changing Cities</cite>
-          </blockquote>
+      <header>
+        <section>
+          <h2>Rooftop Gardens Are Changing Cities</h2>
           <p>
             - By Maria Lopez | <time datetime="2026-03-15">March 15, 2026</time>
           </p>
-        </header>
-
-        <section>
-          <p>
-            Urban farming is transforming unused city spaces into productive
-            green zones. Rooftop gardens are leading this change.
-          </p>
         </section>
+      </header>
+      <p>
+        Urban farming is transforming unused city spaces into productive
+        green zones. Rooftop gardens are leading this change.
+      </p>
 
-        <section>
-          <h3>Why Rooftop Gardens Matter</h3>
-          <p>
-            Cities face food insecurity and environmental stress. Rooftop
-            gardens reduce heat and improve air quality.
-          </p>
-
-          <aside>
-            <p>Urban farms can reduce city temperatures by 2°C.</p>
-          </aside>
-
-          <p>Average yield per rooftop: 500 kg per year.</p>
-        </section>
-
-        <section id="project">
-          <h3>Real-World Example</h3>
-          <p>In 2024, the SkyGrow Project launched in New York City.</p>
-
-          <figure>
-            <img
-              src="https://thumbs.dreamstime.com/b/community-garden-volunteers-tending-vegetables-dedicated-working-together-planting-to-urban-green-spaces-325083833.jpg"
-              alt="Volunteers planting vegetables on a rooftop garden in New York City"
-            />
-            <figcaption>
-              Volunteers planting vegetables at SkyGrow Project.
-            </figcaption>
-          </figure>
-
-          <details>
-            <summary>Project Funding</summary>
-            <p>The initial investment was $250,000.</p>
-          </details>
-        </section>
-
+      <section>
+        <h3>Why Rooftop Gardens Matter</h3>
         <aside>
-          <h4>Related Article</h4>
-          <p><a href="#">Community Gardens in Schools</a></p>
+          <p>Average yield per rooftop: 500 kg per year.</p>
         </aside>
+        <p>
+          Cities face food insecurity and environmental stress.
+          Rooftop gardens reduce heat and improve air quality.
+        </p>
 
-        <section>
-          <h3>Conclusion</h3>
-          <p>
-            Rooftop farming is more than a trend; it is a sustainable movement.
-          </p>
-        </section>
+        <mark>Urban farms can reduce city temperatures by 2°C.</mark>
 
-        <section id="contact">
-          <h3>Contact Information</h3>
-          <address>
-            Urban Green Initiative<br />
-            123 Greenway Blvd<br />
-            New York, NY<br />
-            Email: <a href="mailto:info@urbangreen.org">info@urbangreen.org</a>
-          </address>
-        </section>
-      </main>
+      </section>
 
-      <!-- <footer>
-        <p>© 2026 Urban Green Initiative</p>
-        <p>Last updated: <time datetime="2026-04-01">April 1, 2026</time></p>
-      </footer>
+      <section id="project">
+        <h3>Real-World Example</h3>
+        <p>In 2024, the SkyGrow Project launched in New York City.</p>
 
-      <dialog open>
-        <p>Subscribe to our newsletter for updates!</p>
-      </dialog> -->
+        <figure>
+          <img
+            src="https://thumbs.dreamstime.com/b/community-garden-volunteers-tending-vegetables-dedicated-working-together-planting-to-urban-green-spaces-325083833.jpg"
+            alt="Volunteers planting vegetables on a rooftop garden in New York City" />
+
+          <figcaption>
+            Volunteers planting vegetables at SkyGrow Project.
+          </figcaption>
+        </figure>
+
+        <details>
+          <summary>Project Funding</summary>
+          <p>The initial investment was $250,000.</p>
+        </details>
+
+      </section>
+
+      <section>
+        <h3>Conclusion</h3>
+        <p>
+          Rooftop farming is more than a trend; it is a sustainable movement.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h3>Contact Information</h3>
+        <address>
+          Urban Green Initiative<br />
+          123 Greenway Blvd<br />
+          New York, NY<br />
+          Email: <a href="mailto:info@urbangreen.org">info@urbangreen.org</a>
+        </address>
+      </section>
     </article>
-  </body>
+
+
+  </main>
+
+  <footer>
+    <p>© 2026 Urban Green Initiative</p>
+    <p>Last updated: <time datetime="2026-04-01">April 1, 2026</time></p>
+  </footer>
+
+  <dialog id="dialog" open>
+    <p>Subscribe to our newsletter for updates!</p>
+    <button commandFor="dialog" command="close">close</button>
+  </dialog>
+</body>
+
 </html>
